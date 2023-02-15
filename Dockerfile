@@ -8,7 +8,7 @@ RUN apt-get update -y
 
 RUN pip install --upgrade pip awsebcli
 
-RUN git config --system --add safe.directory *
+RUN git config --system --add safe.directory "*"
 
 RUN chmod +x entrypoint.sh
 
