@@ -1,9 +1,9 @@
 # action.yml
-name: 'AWS Elastic Beanstalk cli'
+name: 'AWSEB cli interface'
 
-author: Habid Manzur
+author: Ricardo Tapia
 
-description: 'Provide eb cli commands'
+description: 'Inspired by Provide eb cli commands'
 
 branding:
   icon: 'terminal'  
