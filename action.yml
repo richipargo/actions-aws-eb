@@ -1,8 +1,6 @@
 # action.yml
 name: 'AWSEB cli interface'
-
 author: Ricardo Tapia
-
 description: 'Inspired by Provide eb cli commands'
 
 branding:
