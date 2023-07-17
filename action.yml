@@ -6,9 +6,9 @@ author: Ricardo Tapia
 description: 'Inspired by Provide eb cli commands'
 
 branding:
-  icon: 'terminal'  
+  icon: 'terminal'
   color: 'white'
-  
+
 inputs:
   command:  # id of input
     description: 'eb <command>'

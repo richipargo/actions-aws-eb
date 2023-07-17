@@ -1,5 +1,5 @@
 name: Run tests
-on: 
+on:
   push:
     paths-ignore:
       - '*.md'
@@ -12,12 +12,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
-      
+        uses: actions/checkout@v3
+
       - name: Build image
-        run: | 
+        run: |
           docker build -t awsebcli .
-      
+
       - name: Run container
         run: |
           docker run awsebcli --version
@@ -28,7 +28,7 @@ jobs:
     needs: dockerfile
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: See version
         uses: ./
