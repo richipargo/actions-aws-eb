@@ -16,6 +16,7 @@ This action run [eb cli](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/
 
 ```YAML
 uses: richipargo/actions-aws-eb@master
+
 with:
   command: 'deploy ${{ secrets.ENVIRONMENT_NAME }}'
 env:
